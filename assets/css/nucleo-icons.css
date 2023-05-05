@@ -1,0 +1,670 @@
+/* --------------------------------
+
+hermes-dashboard-icons Web Font - built using nucleoapp.com
+License - nucleoapp.com/license/
+
+-------------------------------- */
+
+/* ------------------------
+    base class definition
+------------------------- */
+
+.ni {
+  display: inline-block;
+  font: normal normal normal 14px/1 NucleoIcons;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ------------------------
+  change icon size
+------------------------- */
+
+.ni-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+.ni-2x {
+  font-size: 2em;
+}
+
+.ni-3x {
+  font-size: 3em;
+}
+
+.ni-4x {
+  font-size: 4em;
+}
+
+.ni-5x {
+  font-size: 5em;
+}
+
+/* ----------------------------------
+  add a square/circle background
+----------------------------------- */
+
+.ni.square, .ni.circle {
+  padding: 0.33333333em;
+  vertical-align: -16%;
+  background-color: #eee;
+}
+
+.ni.circle {
+  border-radius: 50%;
+}
+
+/* ------------------------
+  list icons
+------------------------- */
+
+.ni-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+
+.ni-ul > li {
+  position: relative;
+}
+
+.ni-ul > li > .ni {
+  position: absolute;
+  left: -1.57142857em;
+  top: 0.14285714em;
+  text-align: center;
+}
+
+.ni-ul > li > .ni.lg {
+  top: 0;
+  left: -1.35714286em;
+}
+
+.ni-ul > li > .ni.circle, .ni-ul > li > .ni.square {
+  top: -0.19047619em;
+  left: -1.9047619em;
+}
+
+/* ------------------------
+  spinning icons
+------------------------- */
+
+.ni.spin {
+  -moz-animation: nc-spin 2s infinite linear;
+  animation: nc-spin 2s infinite linear;
+}
+
+@keyframes nc-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* ------------------------
+  rotated/flipped icons
+------------------------- */
+
+.ni.rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.ni.rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.ni.rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.ni.flip-y {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.ni.flip-x {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* ------------------------
+    font icons
+------------------------- */
+
+.ni-active-40::before {
+  content: "\ea02";
+}
+
+.ni-air-baloon::before {
+  content: "\ea03";
+}
+
+.ni-album-2::before {
+  content: "\ea04";
+}
+
+.ni-align-center::before {
+  content: "\ea05";
+}
+
+.ni-align-left-2::before {
+  content: "\ea06";
+}
+
+.ni-ambulance::before {
+  content: "\ea07";
+}
+
+.ni-app::before {
+  content: "\ea08";
+}
+
+.ni-archive-2::before {
+  content: "\ea09";
+}
+
+.ni-atom::before {
+  content: "\ea0a";
+}
+
+.ni-badge::before {
+  content: "\ea0b";
+}
+
+.ni-bag-17::before {
+  content: "\ea0c";
+}
+
+.ni-basket::before {
+  content: "\ea0d";
+}
+
+.ni-bell-55::before {
+  content: "\ea0e";
+}
+
+.ni-bold-down::before {
+  content: "\ea0f";
+}
+
+.ni-bold-left::before {
+  content: "\ea10";
+}
+
+.ni-bold-right::before {
+  content: "\ea11";
+}
+
+.ni-bold-up::before {
+  content: "\ea12";
+}
+
+.ni-bold::before {
+  content: "\ea13";
+}
+
+.ni-book-bookmark::before {
+  content: "\ea14";
+}
+
+.ni-books::before {
+  content: "\ea15";
+}
+
+.ni-box-2::before {
+  content: "\ea16";
+}
+
+.ni-briefcase-24::before {
+  content: "\ea17";
+}
+
+.ni-building::before {
+  content: "\ea18";
+}
+
+.ni-bulb-61::before {
+  content: "\ea19";
+}
+
+.ni-bullet-list-67::before {
+  content: "\ea1a";
+}
+
+.ni-bus-front-12::before {
+  content: "\ea1b";
+}
+
+.ni-button-pause::before {
+  content: "\ea1c";
+}
+
+.ni-button-play::before {
+  content: "\ea1d";
+}
+
+.ni-button-power::before {
+  content: "\ea1e";
+}
+
+.ni-calendar-grid-58::before {
+  content: "\ea1f";
+}
+
+.ni-camera-compact::before {
+  content: "\ea20";
+}
+
+.ni-caps-small::before {
+  content: "\ea21";
+}
+
+.ni-cart::before {
+  content: "\ea22";
+}
+
+.ni-chart-bar-32::before {
+  content: "\ea23";
+}
+
+.ni-chart-pie-35::before {
+  content: "\ea24";
+}
+
+.ni-chat-round::before {
+  content: "\ea25";
+}
+
+.ni-check-bold::before {
+  content: "\ea26";
+}
+
+.ni-circle-08::before {
+  content: "\ea27";
+}
+
+.ni-cloud-download-95::before {
+  content: "\ea28";
+}
+
+.ni-cloud-upload-96::before {
+  content: "\ea29";
+}
+
+.ni-compass-04::before {
+  content: "\ea2a";
+}
+
+.ni-controller::before {
+  content: "\ea2b";
+}
+
+.ni-credit-card::before {
+  content: "\ea2c";
+}
+
+.ni-curved-next::before {
+  content: "\ea2d";
+}
+
+.ni-delivery-fast::before {
+  content: "\ea2e";
+}
+
+.ni-diamond::before {
+  content: "\ea2f";
+}
+
+.ni-email-83::before {
+  content: "\ea30";
+}
+
+.ni-fat-add::before {
+  content: "\ea31";
+}
+
+.ni-fat-delete::before {
+  content: "\ea32";
+}
+
+.ni-fat-remove::before {
+  content: "\ea33";
+}
+
+.ni-favourite-28::before {
+  content: "\ea34";
+}
+
+.ni-folder-17::before {
+  content: "\ea35";
+}
+
+.ni-glasses-2::before {
+  content: "\ea36";
+}
+
+.ni-hat-3::before {
+  content: "\ea37";
+}
+
+.ni-headphones::before {
+  content: "\ea38";
+}
+
+.ni-html5::before {
+  content: "\ea39";
+}
+
+.ni-istanbul::before {
+  content: "\ea3a";
+}
+
+.ni-key-25::before {
+  content: "\ea3b";
+}
+
+.ni-laptop::before {
+  content: "\ea3c";
+}
+
+.ni-like-2::before {
+  content: "\ea3d";
+}
+
+.ni-lock-circle-open::before {
+  content: "\ea3e";
+}
+
+.ni-map-big::before {
+  content: "\ea3f";
+}
+
+.ni-mobile-button::before {
+  content: "\ea40";
+}
+
+.ni-money-coins::before {
+  content: "\ea41";
+}
+
+.ni-note-03::before {
+  content: "\ea42";
+}
+
+.ni-notification-70::before {
+  content: "\ea43";
+}
+
+.ni-palette::before {
+  content: "\ea44";
+}
+
+.ni-paper-diploma::before {
+  content: "\ea45";
+}
+
+.ni-pin-3::before {
+  content: "\ea46";
+}
+
+.ni-planet::before {
+  content: "\ea47";
+}
+
+.ni-ruler-pencil::before {
+  content: "\ea48";
+}
+
+.ni-satisfied::before {
+  content: "\ea49";
+}
+
+.ni-scissors::before {
+  content: "\ea4a";
+}
+
+.ni-send::before {
+  content: "\ea4b";
+}
+
+.ni-settings-gear-65::before {
+  content: "\ea4c";
+}
+
+.ni-settings::before {
+  content: "\ea4d";
+}
+
+.ni-single-02::before {
+  content: "\ea4e";
+}
+
+.ni-single-copy-04::before {
+  content: "\ea4f";
+}
+
+.ni-sound-wave::before {
+  content: "\ea50";
+}
+
+.ni-spaceship::before {
+  content: "\ea51";
+}
+
+.ni-square-pin::before {
+  content: "\ea52";
+}
+
+.ni-support-16::before {
+  content: "\ea53";
+}
+
+.ni-tablet-button::before {
+  content: "\ea54";
+}
+
+.ni-tag::before {
+  content: "\ea55";
+}
+
+.ni-tie-bow::before {
+  content: "\ea56";
+}
+
+.ni-time-alarm::before {
+  content: "\ea57";
+}
+
+.ni-trophy::before {
+  content: "\ea58";
+}
+
+.ni-tv-2::before {
+  content: "\ea59";
+}
+
+.ni-umbrella-13::before {
+  content: "\ea5a";
+}
+
+.ni-user-run::before {
+  content: "\ea5b";
+}
+
+.ni-vector::before {
+  content: "\ea5c";
+}
+
+.ni-watch-time::before {
+  content: "\ea5d";
+}
+
+.ni-world::before {
+  content: "\ea5e";
+}
+
+.ni-zoom-split-in::before {
+  content: "\ea5f";
+}
+
+.ni-collection::before {
+  content: "\ea60";
+}
+
+.ni-image::before {
+  content: "\ea61";
+}
+
+.ni-shop::before {
+  content: "\ea62";
+}
+
+.ni-ungroup::before {
+  content: "\ea63";
+}
+
+.ni-world-2::before {
+  content: "\ea64";
+}
+
+.ni-ui-04::before {
+  content: "\ea65";
+}
+
+/* all icon font classes list here */
+
+.sidenav .nav-item {
+  display: block;
+  width: 100%;
+}
+
+.sidenav .nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.status-circle {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.unstyledbtn {
+  background: none;
+  border: none;
+}
+
+.dropdown-toggle.unstyledbtn::after {
+  display: none;
+}
+
+.status-btn.onfield .status-circle {
+  background-color: var(--bs-danger);
+}
+
+.status-btn.onwork .status-circle {
+  background-color: var(--bs-warning);
+}
+
+.status-btn.free .status-circle {
+  background-color: var(--bs-success);
+}
+
+.status-btn.free .status-span span:not(.free) {
+  display: none;
+}
+
+.status-btn.onfield .status-span span:not(.onfield) {
+  display: none;
+}
+
+.status-btn.onwork .status-span span:not(.onwork) {
+  display: none;
+}
+
+.bike-illustration {
+  width: 20%;
+  background-color: #E9FFFE;
+  padding: .5rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  aspect-ratio: 1;
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed) > .accordion-icon {
+  transform: rotate(180deg) translateY(50%);
+}
+
+.maintenance-card .badge {
+  /*position: absolute;*/
+  /*right: 1.5rem;*/
+}
+
+.accordion-button .accordion-icon {
+  transition-duration: .2s;
+  display: block;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(0deg);
+}
+
+svg.bike-illustration {
+  /*box-sizing: content-box;*/
+  font-size: 1rem;
+  display: block;
+  height: 100%;
+  color: #00a19c;
+}
+
+.user-profile-list-group .list-group-item {
+  gap: .5rem;
+  display: flex;
+}
+
+.edit-link {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
